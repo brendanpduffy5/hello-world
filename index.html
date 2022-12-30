@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+  
+
     <header>
         <h1>Ella's Super Pups
             German Shepherd Breeder and Trainer
@@ -14,12 +17,14 @@
         <nav>
             <ul>
                 <li><a href="">About</a></li>
-                <li><a href="">Dam</a></li>
-                <li><a href="">Sire</a></li>
+                <li><a href="">Dams</a></li>
+                <li><a href="">Sires</a></li>
                 <li><a href="">Past Litters</a></li>
             </ul>
         </nav>
     </header>
+
+    <script src="app.js"></script>
 
     <main>  
         <section id="top-section">
@@ -30,18 +35,49 @@
         </section>
         <section class="lower-section">
             <img src="https://via.placeholder.com/400x200/170ce6/969696"/>
-            <h2>Puppies Coming This Spring!  
+            <h2>News Section  
             </h2>
+
+            <button onclick="myFunction()">CLICK HERE FOR EXCITING NEWS</button>
+<script>
+function myFunction() {
+  alert("2 new litters of puppies are expected Spring 2023!");
+}
+</script> 
+
+<button onclick="myFunction2()">CLICK HERE for available puppies</button>
+        
+<script>
+    function myFunction2() {
+            let puppyType = prompt("Would you like a male or female puppy?");
+
+        if (puppyType == "female")
+            alert("We have 1 female puppy left");
+
+        else if (puppyType == "male")
+        alert("We have 4 male puppies available");
+
+        else { alert("error")}
+    }
+
+</script>  
+
+
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
         </section>
         <section class="lower-section">
             <img src="https://via.placeholder.com/400x200/75f754/969696"/>
             <h2>Puppies Training Resources  
             </h2>
+            
+
+           
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
         </section>
 
-    </main>    
+    </main>  
+
+
 
 
     <footer>&copy; Ella's Super Pups, LLC </footer>
