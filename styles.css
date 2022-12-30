@@ -5,7 +5,7 @@ body{
 
 nav li {
     display: inline-block
-    width 200px;
+    width 100px;
 }
 
 #top-section {
@@ -13,12 +13,14 @@ nav li {
 
 }
 
-.top-section img {
+#top-section img {
     float: right;
 }
     
 .lower-section {
     border: 10px solid white;
-
+    max-width: 50%;
 }
-
+.lower-section img {
+    float: left;
+}
