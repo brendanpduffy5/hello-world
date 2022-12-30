@@ -4,8 +4,8 @@ body{
 } 
 
 nav li {
-    display: inline-block
-    width 100px;
+    display: inline-block;
+    width: 100px;
 }
 
 #top-section {
@@ -14,7 +14,8 @@ nav li {
 
 }
 #top-section img {
-    width: 200px;
+    width: 50%;
+    height: 100%;
     float: left;
 }
 
@@ -27,4 +28,5 @@ nav li {
 }
 .lower-section img {
     float: left;
+    width: 50%;
 }
