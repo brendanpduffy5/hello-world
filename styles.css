@@ -3,7 +3,7 @@ body{
   color: black;
 } 
 
-nav li {
+nav ul {
     display: inline-block;
     width: 100px;
 }
@@ -16,7 +16,7 @@ nav li {
 #top-section img {
     width: 50%;
     height: 100%;
-    float: left;
+   
 }
 
 
