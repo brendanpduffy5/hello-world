@@ -3,19 +3,25 @@ body{
   color: black;
 } 
 
-nav ul {
+head {
+    border: 10px;
+
+}
+
+nav li {
     display: inline-block;
-    width: 100px;
+    margin-left: 150px;
 }
 
 #top-section {
     border: 10px solid white;
-    width: 50%;
+    width: 90%;
 
 }
 #top-section img {
     width: 50%;
-    height: 100%;
+    height: 50%;
+    border-radius: 10%;
    
 }
 
@@ -27,6 +33,6 @@ nav ul {
     display: inline-block;
 }
 .lower-section img {
-    float: left;
-    width: 50%;
+    width: 100%;
+    border-radius: 10%;
 }
