@@ -10,16 +10,20 @@ nav li {
 
 #top-section {
     border: 10px solid white;
+    width: 50%;
 
 }
-
 #top-section img {
-    float: right;
+    width: 200px;
+    float: left;
 }
+
+
     
 .lower-section {
     border: 10px solid white;
     max-width: 50%;
+    display: inline-block;
 }
 .lower-section img {
     float: left;
