@@ -49,15 +49,17 @@ function myFunction() {
         
 <script>
     function myFunction2() {
-            let puppyType = prompt("Would you like a male or female puppy?");
+        let puppyType = prompt("Would you like a male or female puppy?");
 
         if (puppyType == "female")
             alert("We have 1 female puppy left");
-
+        else if (puppyType == "Female")
+            alert("We have 1 female puppy left");
         else if (puppyType == "male")
         alert("We have 4 male puppies available");
-
-        else { alert("error")}
+        else if (puppyType == "Male")
+        alert("We have 4 male puppies available");
+        else { alert("Error. Please type either male or female.")}
     }
 
 </script>  
