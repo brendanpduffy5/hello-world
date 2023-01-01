@@ -62,19 +62,7 @@ function myFunction() {
         else { alert("Error. Please type either male or female.")}
     }
 
-</script>  
 
-<button onclick="myFunction3()">CLICK HERE see more puppy pics!!</button>
-<script>
-function myFunction3() {
-        let puppyNumber = prompt("How many puppies would you like?");
-
-       for (let i = 0; i < puppyNumber; i++)
-       {
-        document.write("<img class='loop-imgs' src='pawprint.jpg' alt='Picture of a puppy'/>")
-       }
-    }
-</script> 
 
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -91,7 +79,20 @@ function myFunction3() {
 
     </main>  
 
+</script>  
 
+<button onclick="myFunction3()">CLICK HERE rate my page!!</button>
+<script>
+function myFunction3() {
+        let rating = prompt("How many pawprints would you give this page 1-5?");
+
+       for (let i = 0; i < rating; i++)
+       {
+        console.log(i);
+        document.write("<img src='pawprint.jpg' alt='Picture of a puppy'/>")
+       }
+    }
+</script> 
 
 
     <footer>&copy; Ella's Super Pups, LLC </footer>
